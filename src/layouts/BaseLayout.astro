@@ -1,5 +1,8 @@
 ---
-const { title = 'SileaJS', description = 'The SolidJS framework for WordPress' } = Astro.props;
+const {
+	title = "SileaJS",
+	description = "The SolidJS framework for WordPress",
+} = Astro.props;
 ---
 
 <!DOCTYPE html>
@@ -28,8 +31,10 @@ const { title = 'SileaJS', description = 'The SolidJS framework for WordPress' }
 		<meta name="twitter:dnt" content="on" />
 
 		<!-- Links -->
-		<link rel="stylesheet"
-		href={Astro.resolve('./../assets/css/global.css')} />
+		<link
+			rel="stylesheet"
+			href={Astro.resolve('./../assets/css/global.css')}
+		/>
 		<link
 			rel="manifest"
 			href="/site.webmanifest"
@@ -119,14 +124,13 @@ const { title = 'SileaJS', description = 'The SolidJS framework for WordPress' }
 	</head>
 	<body class="antialiased flex flex-grow">
 		<div id="silea-web" class="flex flex-grow">
-			<slot></slot>
+			<slot />
 		</div>
 
 		<!-- Initialize Firebase -->
 		<script
 			defer
 			type="module"
-			src={Astro.resolve('./../assets/js/firebase.js')}
-		></script>
+			src={Astro.resolve('./../assets/js/firebase.js')}></script>
 	</body>
 </html>
