@@ -10,7 +10,7 @@
 	"bugs": {
 		"url": "https://github.com/SileaJS/silea.dev/issues"
 	},
-	"author": "lightrix",
+	"author": "sileajs",
 	"license": "MIT",
 	"private": true,
 	"scripts": {
