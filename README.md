@@ -1,4 +1,4 @@
-# [silea.dev] 🥞
+# [silea.dev] 📄
 
 Silea.dev main website.
 
