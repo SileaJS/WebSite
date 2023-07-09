@@ -1,19 +1,6 @@
 {
-	"name": "silea-web",
-	"version": "0.0.1",
-	"repository": {
-		"type": "git",
-		"url": "https://github.com/SileaJS/silea.dev.git"
-	},
-	"homepage": "https://github.com/SileaJS/silea.dev#readme",
 	"bugs": {
 		"url": "https://github.com/SileaJS/silea.dev/issues"
-	},
-	"license": "MIT",
-	"private": true,
-	"scripts": {
-		"build": "astro check && astro build",
-		"start": "astro dev"
 	},
 	"devDependencies": {
 		"@astrojs/prefetch": "0.2.3",
@@ -41,7 +28,20 @@
 		"tailwindcss": "3.3.2",
 		"zod": "3.21.4"
 	},
+	"homepage": "https://github.com/SileaJS/silea.dev#readme",
+	"license": "MIT",
+	"name": "silea-web",
+	"private": true,
 	"publishConfig": {
 		"access": "restricted"
-	}
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/SileaJS/silea.dev.git"
+	},
+	"scripts": {
+		"build": "astro check && astro build",
+		"start": "astro dev"
+	},
+	"version": "0.0.1"
 }
