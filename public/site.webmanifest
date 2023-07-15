@@ -62,9 +62,5 @@
 	"orientation": "landscape",
 	"short_name": "silea",
 	"start_url": "/",
-<<<<<<< HEAD
 	"theme_color": "#228be6"
-=======
-	"theme_color": "// TODO Use the same theme color from template.html"
->>>>>>> upstream/main
 }
