@@ -2,7 +2,6 @@
 	"name": "silea-web",
 	"version": "0.0.1",
 	"private": true,
-	"type": "module",
 	"homepage": "https://github.com/SileaJS/silea.dev#readme",
 	"bugs": {
 		"url": "https://github.com/SileaJS/silea.dev/issues"
@@ -12,6 +11,7 @@
 		"url": "git+https://github.com/SileaJS/silea.dev.git"
 	},
 	"license": "MIT",
+	"type": "module",
 	"scripts": {
 		"build": "astro check && astro build",
 		"start": "astro dev"
@@ -23,7 +23,7 @@
 		"@tailwindcss/aspect-ratio": "0.4.2",
 		"@tailwindcss/forms": "0.5.4",
 		"@tailwindcss/typography": "0.5.9",
-		"astro": "2.9.7",
+		"astro": "2.10.1",
 		"astro-compress": "1.1.50",
 		"astro-critters": "1.1.40",
 		"astro-rome": "0.1.18",
