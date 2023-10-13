@@ -8,3 +8,5 @@
 	appId: "1:427173895301:web:7850aa63dccb907e17ddec",
 	measurementId: "G-1SDRRZYV8C",
 });
+
+export {};
