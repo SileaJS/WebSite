@@ -2,19 +2,19 @@
 	"name": "@website/silea_nikolahristov_tech",
 	"version": "0.0.1",
 	"private": false,
-	"homepage": "HTTPS://GitHub.Com/SileaJS/Website#readme",
+	"homepage": "https://github.com/SileaJS/Website#readme",
 	"bugs": {
-		"url": "HTTPS://GitHub.Com/SileaJS/Website/issues"
+		"url": "https://github.com/SileaJS/Website/issues"
 	},
 	"repository": {
 		"type": "git",
-		"url": "git+HTTPS://GitHub.Com/SileaJS/Website.git"
+		"url": "git+https://github.com/SileaJS/Website.git"
 	},
 	"license": "SEE LICENSE IN LICENSE",
 	"author": {
 		"name": "Nikola R. Hristov",
 		"email": "Nikola@Playform.Cloud",
-		"url": "HTTPS://NikolaHristov.Tech"
+		"url": "https://nikolahristov.tech"
 	},
 	"scripts": {
 		"prepublishOnly": "astro build",
