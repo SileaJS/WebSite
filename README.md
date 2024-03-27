@@ -1,5 +1,3 @@
-# 📄 [silea.dev]
+# 🗺️ [Website]
 
-Silea.dev main website.
-
-[silea.dev]: https://silea.dev
+[Website]: https://silea.dev
