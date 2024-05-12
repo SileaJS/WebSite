@@ -30,7 +30,11 @@
 		"@tailwindcss/aspect-ratio": "0.4.2",
 		"@tailwindcss/forms": "0.5.7",
 		"@tailwindcss/typography": "0.5.13",
+<<<<<<< HEAD
 		"astro": "4.8.1",
+=======
+		"astro": "4.8.2",
+>>>>>>> df07c19e7dbaa74111902ee7799c9fccf7cfd96c
 		"astro-capo": "0.0.1",
 		"astrojs-service-worker": "2.0.0",
 		"autoprefixer": "10.4.19",
