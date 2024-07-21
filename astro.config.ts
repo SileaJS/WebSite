@@ -2,7 +2,7 @@ export default (await import("astro/config")).defineConfig({
 	srcDir: "./Source",
 	publicDir: "./Public",
 	outDir: "./Target",
-	site: "https://silea.dev",
+	site: "https://Silea.Dev",
 	compressHTML: true,
 	prefetch: true,
 	integrations: [
