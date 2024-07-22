@@ -1,5 +1,9 @@
+<<<<<<< HEAD
 // @ts-nocheck
 const defaultTheme = require("tailwindcss/defaultTheme");
+=======
+import { fontFamily } from "tailwindcss/defaultTheme";
+>>>>>>> Fork/Current
 
 export default {
 	content: [
@@ -14,8 +18,16 @@ export default {
 			center: true,
 		},
 		extend: {
+<<<<<<< HEAD
 			fontFamily: {
 				sans: ["Fira Sans", ...defaultTheme.fontFamily.sans],
+=======
+			transitionTimingFunction: {
+				apple: "cubic-bezier(0.21, 0.1, 0.21, 1)",
+			},
+			fontFamily: {
+				sans: ["Albert Sans", ...fontFamily.sans],
+>>>>>>> Fork/Current
 			},
 			typography: {
 				DEFAULT: {
@@ -25,6 +37,10 @@ export default {
 						},
 					},
 				},
+			},
+			colors: {
+				backgroundLight: "var(--background-light)",
+				backgroundDark: "var(--background-dark)",
 			},
 		},
 	},
