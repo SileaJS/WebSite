@@ -6,7 +6,7 @@ export default defineConfig({
 	srcDir: "./Source",
 	publicDir: "./Public",
 	outDir: "./Target",
-	site: "HTTPS://Silea.Dev",
+	site: "https://Silea.Dev",
 	compressHTML: true,
 	prefetch: {
 		defaultStrategy: "hover",
